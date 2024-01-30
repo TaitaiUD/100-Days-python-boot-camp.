@@ -1,3 +1,4 @@
+# Change data type 
 two_digit_number = input()
 # 🚨 Don't change the code above 👆
 ####################################
@@ -8,3 +9,11 @@ digit_zero = int(two_digit_number[0])
 digit_one = int(two_digit_number[1])
 output = digit_one + digit_zero 
 print(output)
+
+# f-print
+age = input()
+# 🚨 Don't change the code above 👆
+# Write your code below this line 👇
+year_left = 90 - int(age)
+week_left = 52 * year_left
+print(f"You have {week_left} weeks left.")
