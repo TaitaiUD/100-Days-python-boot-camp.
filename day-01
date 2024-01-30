@@ -1,0 +1,8 @@
+## String manipulate 
+# Concatenation :  we can use single quote cover the string that cover by double quote before use + to join them.
+  
+# Case 1 : This code not simplify but we can coding like this , It's can complied.
+  print("String Concatenation is done with the" + ' "+" ' + "sign.")
+  
+# Case 2 : Suggest to do this , Just write the sigle quote before the whole string that cover by the double quote.
+print('String Concatenation is done with the "+" sign.')
