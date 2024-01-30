@@ -1,0 +1,10 @@
+two_digit_number = input()
+# 🚨 Don't change the code above 👆
+####################################
+# Write your code below this line 👇
+# Separeate input number 
+  
+digit_zero = int(two_digit_number[0])
+digit_one = int(two_digit_number[1])
+output = digit_one + digit_zero 
+print(output)
